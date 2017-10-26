@@ -1,0 +1,41 @@
+Texture* mon1 =  get("mon");//纹理
+
+Texture* mon2 = get("mon");
+
+
+
+图片：Pic
+
+父类： Res--》pos rotate scale
+	   --》update
+	 --》render
+子类：public Res
+	CStaticImg--》单张单帧
+		  
+		  Texture* texutre  ; render (){};
+		  update() {  texture->pos = this.pos;}
+	CSingleImg--》单张多帧
+		  int frameW,frameH;
+		  int row,col;
+		  int frameXIndex;
+		  int frameYIndex;
+		  Texture* texutre  ; render (){};
+		  update() {  texture->pos = this.pos;   .....}
+	CMulImg   --》多张多帧
+		  int frameCount;
+		  int curFrame;
+		  Texture** texutre  ; render (){};
+		  update() {  texture->pos = this.pos;   .....}
+
+容器：
+
+map<TSTRING ,Res* > res;
+   
+
+ResManager->
+ 	map<TSTRING ,Res* > res;
+
+	LoadResFromFile()
+	{
+
+	}

@@ -1,0 +1,24 @@
+<level leaveX="700" leaveY="344" background="map1" id="4" next="5">
+<ene type="1">
+<enemy name="enemy_mafia" id="0" weapon="3" status="0" posX="200" posY="200" width="8" height="16">
+</enemy>
+<enemy name="enemy_mafia" id="1" weapon="3" status="1" posX="296" posY="200" width="8" height="16">
+<target posX="376" posY="200"/>
+<target posX="376" posY="264"/>
+<target posX="296" posY="264"/>
+<target posX="296" posY="200"/>
+</enemy>
+<enemy name="enemy_mafia" id="2" weapon="4" status="1" posX="136" posY="344" width="8" height="16">
+<target posX="248" posY="344"/>
+<target posX="248" posY="376"/>
+<target posX="136" posY="376"/>
+<target posX="136" posY="344"/>
+</enemy>
+</ene>
+<bullets type="2" num="50" name="bullet" atk="1" speed="10" height="2" width="6" touchcol="1">
+</bullets>
+<weapons type="3">
+<weapon type="4" id="81" speed="5" posX="416" posY="304"/>
+</weapons>
+<player type="4" posX="420" posY="304" width="8" height="16" name="player_son" id="90" weapon="1"/>
+</level>

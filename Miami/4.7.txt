@@ -1,0 +1,50 @@
+1.定义一个纹理类
+CTexture
+
+
+2.
+include --》FreeImage.h
+
+lib==>FreeImage.lib  -->链接库
+
+bin==>FreeImage.dll
+
+
+3.CTextureManager：
+#define TSTRING basic_string<TCHAR>
+
+a》属性
+   std::map<TSTRING, CTexture*> m_texID;
+
+b>函数
+LoadTexture
+  --》
+
+UnloadTexture
+
+getTexture
+
+BindTexture
+
+UnloadAllTextures
+
+LoadResFromFile
+
+
+
+
+作业：
+1.
+CTexture
+CTextureManager-->xml
+
+2.
+a 动画 --》女  按键在地图上跑  不出边界
+
+b logo动画
+
+
+
+
+
+

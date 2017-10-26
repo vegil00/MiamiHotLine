@@ -1,0 +1,1 @@
+<TEXTURE name="map" path="../bin/textures/map0_0.bmp"/>

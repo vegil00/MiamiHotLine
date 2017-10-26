@@ -1,0 +1,13 @@
+1.枚举  结构体
+2.监听 Listener--》virtual
+3.InputManager--》
+a 容器
+b 容器对应操作
+c wndproc
+
+
+1.生成一个类： public  Listener，public Listener
+
+2.  -->InputManager->add(1);
+
+3.GameManager--》WndPro（）{InputManger->wndproc()}

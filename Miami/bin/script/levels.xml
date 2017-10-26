@@ -1,0 +1,2 @@
+<level type="2" map="../bin/script/level/map1.txt" config="../bin/script/level/level1.xml"/>
+<level type="2" map="../bin/script/level/map2.txt" config="../bin/script/level/level2.xml"/>

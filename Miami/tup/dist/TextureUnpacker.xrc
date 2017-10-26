@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<resource class="">
+  <object class="wxFrame" name="MainFrame">
+    <object class="wxBoxSizer">
+      <object class="sizeritem">
+        <object class="wxBoxSizer" name="content">
+          <object class="sizeritem">
+            <object class="wxListBox" name="plist_file">
+              <style>wxLB_EXTENDED</style>
+              <XRCED>
+                <events>EVT_LISTBOX</events>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxListBox" name="cur_plist">
+              <XRCED>
+                <events>EVT_LISTBOX</events>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>2</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="content">
+              <style>wxTE_MULTILINE|wxTE_READONLY</style>
+              <XRCED>
+                <assign_var>1</assign_var>
+              </XRCED>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+          </object>
+          <orient>wxVERTICAL</orient>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+      </object>
+      <orient>wxHORIZONTAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer" name="png_img">
+          <object class="sizeritem">
+            <object class="wxPanel">
+              <object class="wxStaticBitmap" name="png_img">
+                <bg>#FFFFFF</bg>
+                <XRCED>
+                  <assign_var>1</assign_var>
+                </XRCED>
+              </object>
+              <style>wxBORDER_SIMPLE</style>
+            </object>
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <border>2</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <object class="sizeritem">
+                <object class="wxButton" name="btnDirectory">
+                  <label>open directory</label>
+                  <XRCED>
+                    <events>EVT_BUTTON</events>
+                  </XRCED>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="input_dir">
+                  <XRCED>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+                <option>1</option>
+                <flag>wxEXPAND</flag>
+              </object>
+              <orient>wxHORIZONTAL</orient>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <orient>wxHORIZONTAL</orient>
+              <object class="sizeritem">
+                <object class="wxButton" name="export">
+                  <label>export selected plists</label>
+                  <XRCED>
+                    <events>EVT_BUTTON</events>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxButton">
+                  <label>a useless button...</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="tip">
+                  <label>system tips</label>
+                  <fg>#008000</fg>
+                  <XRCED>
+                    <assign_var>1</assign_var>
+                  </XRCED>
+                </object>
+                <option>1</option>
+                <flag>wxALL|wxEXPAND</flag>
+              </object>
+            </object>
+          </object>
+          <orient>wxVERTICAL</orient>
+        </object>
+        <option>4</option>
+        <flag>wxEXPAND</flag>
+      </object>
+    </object>
+    <title>TextureUnpacker</title>
+    <centered>1</centered>
+  </object>
+</resource>

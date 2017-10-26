@@ -1,0 +1,29 @@
+tileW
+tileH
+
+map[row][col] ==>30
+
+
+
+ 原图片：
+width：
+
+Colcount： 原图片一行有多少个块==》width/tileW
+RowCount： 原图片一列有多少个块==》height/tileH
+
+id==>0==》1这个id ==>对应所在的行列：
+纹理中要用到的数据：
+30在这张图片上的第几行：row ==》 (id-1)/Colcount
+30在这张图片上的第几列：col ==>  (id-1)%Colcount
+
+
+//***************************画地图
+for(int i = 0 ;i<row ;i++)
+  for(int j = 0;j<col;j++)
+  {
+
+	显示在界面上的位置x = tileH*i；
+	显示在界面上的位置y = tileW*1；
+	单张多帧坐标 row ==》 (id-1)/Colcount
+	单张多帧坐标 col ==>  (id-1)%Colcount
+  }

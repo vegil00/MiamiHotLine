@@ -1,0 +1,44 @@
+<SINGLEIMAGE imgType="1" name="GAMESTART" path="../bin/textures/GAMESTART.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="M16" path="../bin/textures/M16.png" countFrame="1" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="SOULTRADE" path="../bin/textures/SOULTRADE.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="Shootgun" path="../bin/textures/Shootgun.png" countFrame="1" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="ammo_rifle" path="../bin/textures/ammo_rifle.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="ammo_shootgun" path="../bin/textures/ammo_shootgun.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="blood" path="../bin/textures/blood.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="bullet" path="../bin/textures/bullet.png" countFrame="1" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="eject" path="../bin/textures/eject.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_M16" path="../bin/textures/enemy_mafia_M16.png" countFrame="6" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_M16_fire" path="../bin/textures/enemy_mafia_M16_fire.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_excuated_kick" path="../bin/textures/enemy_mafia_excuated_kick.png" countFrame="14" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_hitByBullet" path="../bin/textures/enemy_mafia_hitByBullet.png" countFrame="1" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_hitByShootgun" path="../bin/textures/enemy_mafia_hitByShootgun.png" countFrame="1" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_idle" path="../bin/textures/enemy_mafia_idle.png" countFrame="7" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_shootgun" path="../bin/textures/enemy_mafia_shootgun.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_shootgun_fire" path="../bin/textures/enemy_mafia_shootgun_fire.png" countFrame="3" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="enemy_mafia_stun" path="../bin/textures/enemy_mafia_stun.png" countFrame="1" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="gamemenu" path="../bin/textures/gamemenu.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="go" path="../bin/textures/go.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="katana" path="../bin/textures/katana.png" countFrame="1" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="leave_area" path="../bin/textures/leave_area.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="level1" path="../bin/textures/level1.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="level2" path="../bin/textures/level2.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="levelselect" path="../bin/textures/levelselect.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="map" path="../bin/textures/map.bmp" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="map1" path="../bin/textures/map1.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="play" path="../bin/textures/play.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player" path="../bin/textures/player0.bmp" countFrame="4" countDir="8" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son" path="../bin/textures/player_son.png" countFrame="6" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_excuate_kick" path="../bin/textures/player_son_excuate_kick.png" countFrame="14" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_hitbyshootgun" path="../bin/textures/player_son_hitbyshootgun.png" countFrame="1" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_katana" path="../bin/textures/player_son_katana.png" countFrame="8" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_katana_slash" path="../bin/textures/player_son_katana_slash.png" countFrame="9" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_m16" path="../bin/textures/player_son_m16.png" countFrame="3" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_m16_fire" path="../bin/textures/player_son_m16_fire.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_punch1" path="../bin/textures/player_son_punch1.png" countFrame="6" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_punch2" path="../bin/textures/player_son_punch2.png" countFrame="5" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_shootgun" path="../bin/textures/player_son_shootgun.png" countFrame="5" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player_son_shootgun_fire" path="../bin/textures/player_son_shootgun_fire.png" countFrame="4" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="retry" path="../bin/textures/restart.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="title" path="../bin/textures/title.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="×Óµ¯" path="../bin/textures/×Óµ¯.png" countFrame="7" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="map2" path="../bin/textures/map2.png" colorA="0" colorR="0" colorG="0" colorB="0" />

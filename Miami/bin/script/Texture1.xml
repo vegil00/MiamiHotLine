@@ -1,0 +1,8 @@
+<Textures>
+<Texture name="map" path="../bin/textures/map.bmp" type="0"/>
+<Texture name="player" path="../bin/textures/player0.bmp" type="1" row="8" col="4"/>
+<Texture name="³õÊ¼±³¾°0" path="../bin/textures/³õÊ¼±³¾°0.png" type="0"/>
+<Texture name="³õÊ¼±³¾°1" path="../bin/textures/³õÊ¼±³¾°1.png" type="0"/>
+<Texture name="GAMESTART" path="../bin/textures/GAMESTART.png" type="1" row="1" col="2"/>
+<Texture name="SOULTRADE" path="../bin/textures/SOULTRADE.png" type="1" row="1" col="2"/>
+</Textures>

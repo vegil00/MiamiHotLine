@@ -1,0 +1,67 @@
+1.线
+struct Line
+{
+ Vector3 start,end;
+ Vector3 normalize；
+ double distance;
+}；
+
+算线
+ Line obj;
+Vector3 line;
+a：line = obj.end-obj.start
+b. line = line.normalize();
+c. lenght = line.dot(-start) 
+d. obj.normalize = obj.start+ line*lenght;
+e. obj.distance = obj.normalize.lenght(); 
+f.  obj.normalize = obj.normalize.Normalize();
+
+ 
+
+2.是否发生碰撞
+a: 该球心到线段最近的点
+Vector3 ballPos;
+double dis = obj.normalize.dot(ballPos);
+Vector temp = (obj.distance-dis)*obj.normalize;
+Vector pos = ballPos+ temp;
+b: 判断该点在不在线段内
+
+pos.x ==>
+&&
+pos.y ==>
+
+
+
+c: b成立的前提下，判断到线段的距离和半径的关系（张反面）
+if(obj.distance-dis >0)//正面
+{
+	if（curdis >r  && nextDis <r）
+	   true;
+}
+else //反面
+{
+    if(curDis<-r  && nextDis >-r )
+	true;
+
+}
+
+3.反弹       
+Vector ballDir;
+double dis = obj.normalize.dot(ballDir); 
+
+Vector temp =     dis*2* obj.normalize;
+
+balldir = ballDir-temp;
+
+
+//******************
+ballPos+= ballDir;      
+
+                 
+
+
+
+
+
+
+

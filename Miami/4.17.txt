@@ -1,0 +1,87 @@
+1.确定池子大小  100  vector
+
+2. 
+class Bullet{
+  
+  bool isVisable;//true false
+  Bullet()
+  {
+	isVisable = false;
+  }
+
+
+  void render（）
+ {}
+ 
+void update（）
+{}
+};
+
+3.init初始化池子
+vector bulletPool;
+init:
+for（int  i = 0  ;i<100 ;i++）
+  bulletPool.pushBack(new Bullet);
+
+
+4.发子弹
+int count = 0;
+for（int  i = 0  ;i<100 ;i++）
+  if（bulletPool[i].isVisable == false）
+  {
+	bulletPool[i].isVisable = true;
+	bulletPool[i].x = player.x...
+	bulletPool[i].y = player.y...
+	bulletPool[i].dir = ；
+	count++ ;
+	if(count== 2)
+	  break;//!!!
+  }
+
+
+5.绘制
+
+for（int  i = 0  ;i<100 ;i++）
+  if（bulletPool[i].isVisable ）
+	bulletPool[i].render（）;
+
+
+6.回收（出屏幕边界）&检测（碰撞）
+
+for（int  i = 0  ;i<100 ;i++）
+  if（bulletPool[i].isVisable ）
+  {
+	if（bulletPool[i].x  bulletPool[i].y  出屏幕边界）
+		bulletPool[i].isVisable = fals;
+	for( 遍历所有的敌机)
+	{
+		if（判断碰撞）
+		{
+			bulletPool[i].isVisable = false；
+			//.....
+			break；
+		}
+		
+	}
+  }
+
+7.移动
+
+for（int  i = 0  ;i<100 ;i++）
+  if（bulletPool[i].isVisable ）
+	bulletPool[i].move（）；
+
+
+BulletManager：
+vector
+enum { ， }
+、、************
+vector 
+vector
+
+
+
+
+
+
+

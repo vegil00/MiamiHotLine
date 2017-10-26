@@ -1,0 +1,8 @@
+<Audio>
+<sound name="sndShootgun" path="../bin/Sounds/sndShotgun.wav" sample="2"/>
+<sound name="sndM16" path="../bin/Sounds/sndM16.wav" sample="2"/>
+<sound name="sndCut1" path="../bin/Sounds/sndCut1.wav" sample="2"/>
+<sound name="sndPunch" path="../bin/Sounds/sndPunch.wav" sample="2"/>
+<sound name="sndWeaponHit" path="../bin/Sounds/sndWeaponHit.wav" sample="2"/>
+<sound name="sndThrow" path="../bin/Sounds/sndThrow.wav" sample="2"/>
+</Audio>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{85b3e938-6383-4c87-8636-976059ea65b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="消息处理">
+      <UniqueIdentifier>{20c7e539-3f2c-4c15-ad70-f089a1260cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{1a92845b-a2e2-40d5-9a53-b75254f57646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="纹理">
+      <UniqueIdentifier>{00f7d105-e39a-44e9-9659-b96058d6e3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源">
+      <UniqueIdentifier>{065ef1e5-3974-467b-aee5-633bcfc03131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架">
+      <UniqueIdentifier>{5fcd4882-63c0-4bbf-adfa-e3164d0acfe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="声音">
+      <UniqueIdentifier>{d80fb601-77a6-464b-8e01-fde6d659d284}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="VECTOR3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>消息处理</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>消息处理</Filter>
+    </ClInclude>
+    <ClInclude Include="sEvent.h">
+      <Filter>消息处理</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>纹理</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>纹理</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Res.h">
+      <Filter>资源</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticImg.h">
+      <Filter>资源</Filter>
+    </ClInclude>
+    <ClInclude Include="ResManager.h">
+      <Filter>资源</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleImg.h">
+      <Filter>资源</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="Snece.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SenceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Icon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio4Bass.h">
+      <Filter>声音</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VECTOR3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>消息处理</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>纹理</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>纹理</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Res.cpp">
+      <Filter>资源</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticImg.cpp">
+      <Filter>资源</Filter>
+    </ClCompile>
+    <ClCompile Include="ResManager.cpp">
+      <Filter>资源</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleImg.cpp">
+      <Filter>资源</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="Snece.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SenceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Icon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio4Bass.cpp">
+      <Filter>声音</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

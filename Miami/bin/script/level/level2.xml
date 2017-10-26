@@ -1,0 +1,81 @@
+<level leaveX="728" leaveY="184" background="map2" id="5" next="1">
+<ene type="1">
+<enemy name="enemy_mafia" id="0" weapon="3" status="0" posX="72" posY="104" width="8" height="16">
+</enemy>
+<enemy name="enemy_mafia" id="1" weapon="3" status="1" posX="120" posY="40" width="8" height="16">
+<target posX="168" posY="40"/>
+<target posX="168" posY="152"/>
+<target posX="120" posY="152"/>
+<target posX="120" posY="40"/>
+</enemy>
+<enemy name="enemy_mafia" id="2" weapon="4" status="1" posX="72" posY="312" width="8" height="16">
+<target posX="168" posY="312"/>
+<target posX="168" posY="488"/>
+<target posX="72" posY="488"/>
+<target posX="72" posY="312"/>
+</enemy>
+<enemy name="enemy_mafia" id="3" weapon="3" status="0" posX="88" posY="248" width="8" height="16">
+</enemy>
+<enemy name="enemy_mafia" id="4" weapon="3" status="0" posX="216" posY="72" width="8" height="16">
+</enemy>
+<enemy name="enemy_mafia" id="5" weapon="3" status="1" posX="328" posY="56" width="8" height="16">
+<target posX="376" posY="56"/>
+<target posX="376" posY="104"/>
+<target posX="328" posY="104"/>
+<target posX="328" posY="40"/>
+</enemy>
+<enemy name="enemy_mafia" id="6" weapon="3" status="1" posX="424" posY="56" width="8" height="16">
+<target posX="456" posY="56"/>
+<target posX="472" posY="104"/>
+<target posX="408" posY="104"/>
+<target posX="408" posY="40"/>
+</enemy>
+<enemy name="enemy_mafia" id="6" weapon="3" status="1" posX="424" posY="56" width="8" height="16">
+<target posX="552" posY="56"/>
+<target posX="552" posY="104"/>
+<target posX="504" posY="104"/>
+<target posX="504" posY="56"/>
+</enemy>
+<enemy name="enemy_mafia" id="7" weapon="3" status="1" posX="600" posY="40" width="8" height="16">
+<target posX="680" posY="40"/>
+<target posX="680" posY="120"/>
+<target posX="600" posY="120"/>
+<target posX="600" posY="40"/>
+</enemy>
+<enemy name="enemy_mafia" id="8" weapon="3" status="1" posX="600" posY="360" width="8" height="16">
+<target posX="680" posY="360"/>
+<target posX="680" posY="488"/>
+<target posX="600" posY="488"/>
+<target posX="600" posY="360"/>
+</enemy>
+<enemy name="enemy_mafia" id="9" weapon="3" status="1" posX="296" posY="184" width="8" height="16">
+<target posX="360" posY="184"/>
+<target posX="296" posY="184"/>
+</enemy>
+<enemy name="enemy_mafia" id="10" weapon="4" status="1" posX="392" posY="184" width="8" height="16">
+<target posX="456" posY="184"/>
+<target posX="392" posY="184"/>
+</enemy>
+<enemy name="enemy_mafia" id="11" weapon="3" status="1" posX="488" posY="184" width="8" height="16">
+<target posX="568" posY="184"/>
+<target posX="488" posY="184"/>
+</enemy>
+<enemy name="enemy_mafia" id="12" weapon="3" status="1" posX="296" posY="312" width="8" height="16">
+<target posX="456" posY="312"/>
+<target posX="456" posY="344"/>
+<target posX="296" posY="344"/>
+<target posX="296" posY="312"/>
+</enemy>
+<enemy name="enemy_mafia" id="12" weapon="3" status="1" posX="488" posY="312" width="8" height="16">
+<target posX="568" posY="312"/>
+<target posX="568" posY="344"/>
+<target posX="488" posY="344"/>
+<target posX="488" posY="312"/>
+</enemy>
+</ene>
+<bullets type="2" num="50" name="bullet" atk="1" speed="10" height="2" width="6" touchcol="1">
+</bullets>
+<weapons type="3">
+</weapons>
+<player type="4" posX="752" posY="112" width="8" height="16" name="player_son" id="90" weapon="1"/>
+</level>

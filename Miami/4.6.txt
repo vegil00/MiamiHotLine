@@ -1,0 +1,40 @@
+创建：
+1. fread  把bmp中图片的颜色信息读取出来；
+
+2.使用opengl纹理生成函数 ，生成一张纹理。
+
+// 分配一个新的纹理编号
+int texture_ID = 0;
+glGenTextures(1, &texture_ID);
+
+
+glBindTexture(GL_TEXTURE_2D, texture_ID);//制定绑定纹理，接下来操作就是针对该texture_ID纹理
+
+glTexImage2D();
+
+
+
+创建结果：
+texture_ID --》对应的图片
+
+使用：
+
+1.glEnable(GL_TEXTURE_2D);--》initGL（）
+
+
+
+2.Render：
+
+glBindTexture(GL_TEXTURE_2D, texture_ID);//使用纹理
+glBegin(GL_QUADS);
+glTexCoord2f(0.0f, 0.0f); // 制定纹理坐标
+glVertex3f(-8.0f, -8.0f, 0.0f);//制定纹理坐标对应的坐标点
+glTexCoord2f(0.0f, 1.0f); 
+glVertex3f(-8.0f, 8.0f, 0.0f);
+glTexCoord2f(1.0f, 1.0f); 
+glVertex3f(8.0f, 8.0f, 0.0f);
+glTexCoord2f(1.0f, 0.0f); 
+glVertex3f(8.0f, -8.0f, 0.0f);
+glEnd();
+
+

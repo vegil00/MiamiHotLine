@@ -1,0 +1,119 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="UITitle">
+			<method name="BtnLanguageClick"/>
+			<method name="BtnQuitClick"/>
+			<method name="BtnContinueClick"/>
+			<method name="BtnBgmClick"/>
+			<method name="SwitchLanguage"/>
+			<method name="SwitchLanguage"/>
+			<method name="SwitchLanguage"/>
+			<method name="ShowSettingBar"/>
+			<method name="SwitchLanguage"/>
+			<method name="SwitchLanguage"/>
+			<method name="BtnGooglePlayClick"/>
+			<method name="SwitchLanguage"/>
+			<method name="SwitchLanguage"/>
+			<method name="OnBtnClick"/>
+			<method name="SwitchLanguage"/>
+			<method name="BtnEffectClick"/>
+			<method name="BtnNewGameClick"/>
+			<method name="SwitchLanguage"/>
+			<method name="SwitchLanguage"/>
+		</type>
+		<type fullname="UISettingBar">
+			<method name="BtnBgmClick"/>
+			<method name="BtnAxisClick"/>
+			<method name="BtnControlClick"/>
+			<method name="BtnEffectClick"/>
+			<method name="BtnShareClick"/>
+			<method name="BtnBgmClick"/>
+			<method name="BtnAxisClick"/>
+			<method name="BtnControlClick"/>
+			<method name="BtnEffectClick"/>
+			<method name="BtnShareClick"/>
+			<method name="BtnBgmClick"/>
+			<method name="BtnAxisClick"/>
+			<method name="BtnControlClick"/>
+			<method name="BtnEffectClick"/>
+			<method name="BtnShareClick"/>
+		</type>
+		<type fullname="UICanvas">
+			<method name="ShowWindowPause"/>
+			<method name="ShowWindowPause"/>
+			<method name="ShowWindowPause"/>
+		</type>
+		<type fullname="UIWindowPause">
+			<method name="BtnContinueClick"/>
+			<method name="BtnSettingClick"/>
+			<method name="BtnHomeClick"/>
+			<method name="BtnContinueClick"/>
+			<method name="BtnSettingClick"/>
+			<method name="BtnHomeClick"/>
+			<method name="BtnContinueClick"/>
+			<method name="BtnSettingClick"/>
+			<method name="BtnHomeClick"/>
+		</type>
+		<type fullname="UIBtnRec">
+			<method name="OnBtnClick"/>
+			<method name="OnBtnClick"/>
+			<method name="OnBtnClick"/>
+		</type>
+		<type fullname="RGGameManager">
+			<method name="SwitchWeapon"/>
+			<method name="SwitchWeapon"/>
+			<method name="SwitchWeapon"/>
+		</type>
+		<type fullname="UITap">
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+		</type>
+		<type fullname="UIWindowFurniture">
+			<method name="CloseBtnClick"/>
+			<method name="BtnYesClick"/>
+		</type>
+		<type fullname="UISlot">
+			<method name="RollBtnClick"/>
+			<method name="CloseBtnClick"/>
+		</type>
+		<type fullname="UISwitch">
+			<method name="BtnYesClick"/>
+			<method name="CloseBtnClick"/>
+			<method name="BtnYesClick"/>
+			<method name="CloseBtnClick"/>
+			<method name="BtnYesClick"/>
+			<method name="CloseBtnClick"/>
+		</type>
+		<type fullname="UIChoseHero">
+			<method name="PetBtnNext"/>
+			<method name="PetBtnNext"/>
+			<method name="GetChoicePet"/>
+			<method name="BtnBack"/>
+			<method name="BtnLevelUp"/>
+			<method name="BtnConfirm"/>
+		</type>
+		<type fullname="UIBtnChoseHero">
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+		</type>
+		<type fullname="UIBuffBar">
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+			<method name="BtnClick"/>
+		</type>
+		<type fullname="UITeaching">
+			<method name="OnBtnClick"/>
+		</type>
+		<type fullname="UIStatement">
+			<method name="OnBtnClick"/>
+		</type>
+	</assembly>
+</linker>

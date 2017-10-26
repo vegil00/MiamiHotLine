@@ -1,0 +1,127 @@
+﻿生成启动时间为 2017/4/21 星期五 下午 6:12:28。
+     1>项目“D:\杨耀堃\碰撞\testWindowWin32\testWindowWin32.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AStar.cpp Bullet.cpp BulletManager.cpp GameManager.cpp Gui.cpp InputManager.cpp Node.cpp Player.cpp Res.cpp ResManager.cpp SingleImg.cpp Sprite.cpp StaticImg.cpp stdafx.cpp Texture.cpp TextureManager.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp VECTOR3.cpp "源.cpp"
+         源.cpp
+     1>d:\杨耀堃\碰撞\testwindowwin32\源.cpp(20): warning C4007: “WinMain”: 必须是“__stdcall”
+         VECTOR3.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+     1>d:\杨耀堃\碰撞\testwindowwin32\tinyxml.cpp(1227): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>d:\杨耀堃\碰撞\testwindowwin32\tinyxml.cpp(1234): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+         tinystr.cpp
+         TextureManager.cpp
+         Texture.cpp
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(21): warning C4244: “=”: 从“DWORD”转换到“float”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(38): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(40): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(42): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(44): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(92): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(94): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(96): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(98): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\texture.cpp(111): warning C4244: “初始化”: 从“DWORD”转换到“float”，可能丢失数据
+         stdafx.cpp
+         StaticImg.cpp
+         Sprite.cpp
+         SingleImg.cpp
+         ResManager.cpp
+         Res.cpp
+         Player.cpp
+     1>d:\杨耀堃\碰撞\testwindowwin32\player.cpp(239): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\player.cpp(248): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+         Node.cpp
+         InputManager.cpp
+         Gui.cpp
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(47): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(48): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(49): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(50): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(71): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(72): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(73): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(74): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(124): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(154): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(184): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(185): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(191): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(201): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\gui.cpp(202): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+         GameManager.cpp
+     1>d:\杨耀堃\碰撞\testwindowwin32\gamemanager.cpp(134): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         BulletManager.cpp
+     1>d:\杨耀堃\碰撞\testwindowwin32\bulletmanager.cpp(19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\bulletmanager.cpp(34): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\bulletmanager.cpp(64): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\bulletmanager.cpp(74): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\杨耀堃\碰撞\testwindowwin32\bulletmanager.cpp(98): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\杨耀堃\碰撞\testwindowwin32\bulletmanager.cpp(108): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+     1>d:\杨耀堃\碰撞\testwindowwin32\resmanager.cpp(76): warning C4715: “CResManager::LoadRes”: 不是所有的控件路径都返回值
+     1>d:\杨耀堃\碰撞\testwindowwin32\matrix.h(75): warning C4715: “CMatrix::operator+”: 不是所有的控件路径都返回值
+     1>d:\杨耀堃\碰撞\testwindowwin32\matrix.h(92): warning C4715: “CMatrix::operator-”: 不是所有的控件路径都返回值
+     1>d:\杨耀堃\碰撞\testwindowwin32\matrix.h(117): warning C4715: “CMatrix::operator*”: 不是所有的控件路径都返回值
+     1>d:\杨耀堃\碰撞\testwindowwin32\源.cpp(18): warning C4715: “WinProc”: 不是所有的控件路径都返回值
+         正在编译...
+         Bullet.cpp
+         AStar.cpp
+     1>d:\杨耀堃\碰撞\testwindowwin32\astar.cpp(15): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\astar.cpp(16): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\astar.cpp(23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\astar.cpp(83): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\astar.cpp(84): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\杨耀堃\碰撞\testwindowwin32\astar.cpp(89): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\杨耀堃\碰撞\Debug\testWindowWin32.exe" /INCREMENTAL /NOLOGO gltools.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\杨耀堃\碰撞\Debug\testWindowWin32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\杨耀堃\碰撞\Debug\testWindowWin32.lib" /MACHINE:X86 Debug\AStar.obj
+         Debug\Bullet.obj
+         Debug\BulletManager.obj
+         Debug\GameManager.obj
+         Debug\Gui.obj
+         Debug\InputManager.obj
+         Debug\Node.obj
+         Debug\Player.obj
+         Debug\Res.obj
+         Debug\ResManager.obj
+         Debug\SingleImg.obj
+         Debug\Sprite.obj
+         Debug\StaticImg.obj
+         Debug\stdafx.obj
+         Debug\Texture.obj
+         Debug\TextureManager.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\VECTOR3.obj
+         "Debug\源.obj"
+     1>ResManager.obj : error LNK2019: 无法解析的外部符号 __imp__FreeImage_Unload@4，该符号在函数 "public: bool __thiscall CResManager::LoadRes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum imageType)" (?LoadRes@CResManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4imageType@@@Z) 中被引用
+     1>TextureManager.obj : error LNK2001: 无法解析的外部符号 __imp__FreeImage_Unload@4
+     1>ResManager.obj : error LNK2019: 无法解析的外部符号 __imp__FreeImage_Load@12，该符号在函数 "public: bool __thiscall CResManager::LoadRes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum imageType)" (?LoadRes@CResManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4imageType@@@Z) 中被引用
+     1>TextureManager.obj : error LNK2001: 无法解析的外部符号 __imp__FreeImage_Load@12
+     1>ResManager.obj : error LNK2019: 无法解析的外部符号 __imp__FreeImage_GetFIFFromFilename@4，该符号在函数 "public: bool __thiscall CResManager::LoadRes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum imageType)" (?LoadRes@CResManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4imageType@@@Z) 中被引用
+     1>TextureManager.obj : error LNK2001: 无法解析的外部符号 __imp__FreeImage_GetFIFFromFilename@4
+     1>ResManager.obj : error LNK2019: 无法解析的外部符号 __imp__FreeImage_GetFileType@8，该符号在函数 "public: bool __thiscall CResManager::LoadRes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum imageType)" (?LoadRes@CResManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4imageType@@@Z) 中被引用
+     1>TextureManager.obj : error LNK2001: 无法解析的外部符号 __imp__FreeImage_GetFileType@8
+     1>ResManager.obj : error LNK2019: 无法解析的外部符号 __imp__FreeImage_GetBits@4，该符号在函数 "public: bool __thiscall CResManager::LoadRes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum imageType)" (?LoadRes@CResManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4imageType@@@Z) 中被引用
+     1>TextureManager.obj : error LNK2001: 无法解析的外部符号 __imp__FreeImage_GetBits@4
+     1>ResManager.obj : error LNK2019: 无法解析的外部符号 __imp__FreeImage_GetWidth@4，该符号在函数 "public: bool __thiscall CResManager::LoadRes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum imageType)" (?LoadRes@CResManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4imageType@@@Z) 中被引用
+     1>TextureManager.obj : error LNK2001: 无法解析的外部符号 __imp__FreeImage_GetWidth@4
+     1>ResManager.obj : error LNK2019: 无法解析的外部符号 __imp__FreeImage_GetHeight@4，该符号在函数 "public: bool __thiscall CResManager::LoadRes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum imageType)" (?LoadRes@CResManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4imageType@@@Z) 中被引用
+     1>TextureManager.obj : error LNK2001: 无法解析的外部符号 __imp__FreeImage_GetHeight@4
+     1>ResManager.obj : error LNK2019: 无法解析的外部符号 __imp__FreeImage_ConvertTo32Bits@4，该符号在函数 "public: bool __thiscall CResManager::LoadRes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,enum imageType)" (?LoadRes@CResManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4imageType@@@Z) 中被引用
+     1>TextureManager.obj : error LNK2001: 无法解析的外部符号 __imp__FreeImage_ConvertTo32Bits@4
+     1>D:\杨耀堃\碰撞\Debug\testWindowWin32.exe : fatal error LNK1120: 8 个无法解析的外部命令
+     1>已完成生成项目“D:\杨耀堃\碰撞\testWindowWin32\testWindowWin32.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:22.87

@@ -1,0 +1,9 @@
+<Items>
+<item id="0" name="小型生命药剂" type="0" hp="50" mp="0" atk="0" def="0" time="0" price="20" discription="回复50点hp"/>
+<item id="10" name="长矛" type="1" atk="10" def="0" hp="0" mp="0" price="20" discription="ATK+10"/>
+<item id="11" name="10mm手枪" type="1" atk="20" def="0" hp="0" mp="0" price="40" discription="ATK+20"/>
+<item id="90" name="蚁露" type="8" price="20" discription="辐射蚂蚁的分泌物，看上去没什么用"/>
+<item id="91" name="辐射蝎尾" type="8" price="50" discription="辐射蝎的尾巴，可以用来制作药剂"/>
+<item id="92" name="触须" type="8" price="50" discription="蚂蚁的触须"/>
+<item id="93" name="13号避难所制服" type="8" price="50" discription="村庄建立者的衣服,背后有13的图案"/>
+</Items>

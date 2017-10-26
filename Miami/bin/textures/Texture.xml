@@ -1,0 +1,6 @@
+<SINGLEIMAGE imgType="1" name="GAMESTART" path="../bin/textures/GAMESTART.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="SOULTRADE" path="../bin/textures/SOULTRADE.png" countFrame="2" countDir="1" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="map" path="../bin/textures/map.bmp" colorA="0" colorR="0" colorG="0" colorB="0" />
+<SINGLEIMAGE imgType="1" name="player" path="../bin/textures/player0.bmp" countFrame="4" countDir="8" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="³õÊ¼±³¾°0" path="../bin/textures/³õÊ¼±³¾°0.png" colorA="0" colorR="0" colorG="0" colorB="0" />
+<STATICIMAGE imgType="0" name="³õÊ¼±³¾°1" path="../bin/textures/³õÊ¼±³¾°1.png" colorA="0" colorR="0" colorG="0" colorB="0" />

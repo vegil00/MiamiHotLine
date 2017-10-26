@@ -1,0 +1,24 @@
+Node:(CGUIElement)
+	pos  scale  rotate  visible    list<>child   zValue
+
+Sprite: public Node-->有动画  有移动 有碰撞
+
+
+Layer：(CGUIInterface) 图层  ：  Sprite npc Sprite  player
+		  map
+
+Scene(CScene)： 场景： layer
+
+
+SceneManager(Director): 
+
+map<TSTRING,Scene*> 
+
+TSTRING curScene;
+
+
+
+
+
+
+
